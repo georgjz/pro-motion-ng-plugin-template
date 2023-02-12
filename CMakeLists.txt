@@ -5,8 +5,8 @@ project( PromotionNGPluginTemplate
 
 # TODO: add /Gz option to fix calling convention
 
-add_library( Plugin SHARED "" )
-set_target_properties( Plugin  PROPERTIES
+add_library( PluginTemplate SHARED "" )
+set_target_properties( PluginTemplate  PROPERTIES
     CXX_STANDARD                20
     CXX_STANDARD_REQUIRED       ON
     CXX_EXTENSIONS              OFF
